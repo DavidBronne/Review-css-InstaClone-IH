@@ -1,0 +1,68 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+  padding: 3em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  margin: 2em
+}
+
+#left {
+  border: 1px solid black;
+  width: 30vw;
+}
+
+#right {
+  border: 1px solid black;
+  width: 50vw;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+#navbar a {
+  border: 1px solid black;
+  border-radius: 0.2em;
+  padding: 0.4em;
+  text-decoration: none;
+}
+
+#card {
+  border: 1px solid black; 
+  padding: 2em;
+  border-radius: 1em;
+}
+
+#bottom a {
+  margin: 0.5em;
+}
+
+footer {
+  border: 1px solid black;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  
+}
+
+footer a {
+  text-decoration: none;
+  margin: 0.5em
+}
